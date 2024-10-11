@@ -23,3 +23,10 @@ describe('Calculator Calculation Functions', function() {
         assert.strictEqual(res, 3);
     });
 });
+
+describe('Calculate Square', function() {
+    const res = calculator.calculateSquare(9);
+    it('should return 81', function() {
+        assert.strictEqual(res, 81);
+    });
+});
